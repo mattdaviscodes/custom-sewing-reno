@@ -1,0 +1,167 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: Lato, sans-serif;
+    color: white;
+}
+
+#top {
+    height: 90%;
+    background-image: url("img/DSC_0137_v2.jpg");
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.top-content {
+    width: 80%;
+    background-color: rgba(125, 125, 125, 0.5);
+    border: 1px solid white;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px
+}
+
+.top-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.button {
+    background-color: rgb(255, 42, 19);
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 21px;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 18px 27px;
+    text-align: center;
+    text-decoration-style: solid;
+    text-decoration-line: none;
+    color: white;
+}
+
+.top-content h1 {
+    font-size: 24px;
+    margin: 0;
+    font-weight: 400;
+}
+
+.name {
+    font-size: 144px;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    margin: -20px 0 0 0;
+}
+
+.tagline {
+    font-size: 40px;
+    font-weight: 400;
+    margin: -20px 0 0 0;
+}
+
+#work {
+    background-color: #eacd50;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-4 {
+    max-width: 30%;
+}
+
+.col-6 {
+    max-width: 50%;
+}
+
+#work img {
+    width: 100%;
+    height: auto;
+}
+
+.section-head {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.col-head {
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    margin: 10px;
+}
+
+.col p {
+    font-size: 16px;
+    line-height: 27px;
+    font-weight: 400;
+}
+
+#what-i-do {
+    background-color: #64c4e5;
+    display: flex;
+    align-items: center;
+}
+
+.what-i-do-content {
+    padding: 20px;
+}
+
+.section-image {
+    padding: 20px;
+}
+
+.section-image img {
+    width: 100%;
+    height: auto;
+}
+
+.callout {
+    background-color: #1083da;
+    width: 80%;
+    height: auto;
+}
+
+.callout-content {
+    padding: 20px;
+}
+
+.callout-head {
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    margin: 20px;
+}
+
+#about {
+    background-color: #eacd50;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.about-content {
+    padding: 20px;
+}
