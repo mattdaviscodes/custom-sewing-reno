@@ -88,11 +88,11 @@ html, body {
 }
 
 .col-4 {
-    max-width: 30%;
+    width: 30%;
 }
 
 .col-6 {
-    max-width: 50%;
+    width: 50%;
 }
 
 #work img {
