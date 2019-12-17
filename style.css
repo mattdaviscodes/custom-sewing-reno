@@ -12,8 +12,8 @@ html, body {
 }
 
 #top {
-    height: 90%;
-    background-image: url("img/DSC_0137_v2.jpg");
+    height: 40em;
+    background: url("img/DSC_0137_v2.jpg") center center;
     background-size: cover;
     margin: 0;
     display: flex;
