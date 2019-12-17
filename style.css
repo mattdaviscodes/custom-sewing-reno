@@ -113,7 +113,10 @@ html, body {
     margin: 0;
     font-size: 56px;
     font-weight: 400;
-    padding-top: 20px;
+}
+
+.section-text {
+    padding: 20px;
 }
 
 .col-head {
