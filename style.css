@@ -6,6 +6,11 @@ html, body {
     color: white;
 }
 
+.container {
+    height: auto;
+    margin: 0 auto 0;
+}
+
 #top {
     height: 90%;
     background-image: url("img/DSC_0137_v2.jpg");
@@ -69,9 +74,13 @@ html, body {
 
 #work {
     background-color: #eacd50;
+}
+
+.work-content {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding: 20px;
 }
 
 .columns {
@@ -122,11 +131,11 @@ html, body {
 
 #what-i-do {
     background-color: #64c4e5;
-    display: flex;
-    align-items: center;
 }
 
 .what-i-do-content {
+    display: flex;
+    align-items: center;
     padding: 20px;
 }
 
@@ -158,9 +167,6 @@ html, body {
 
 #about {
     background-color: #eacd50;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
 }
 
 #about img {
@@ -169,5 +175,136 @@ html, body {
 }
 
 .about-content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
     padding: 20px;
+}
+
+@media screen and (max-width: 500px){
+    /*.banner {*/
+    /*    height: 50%;*/
+    /*}*/
+    /*#name h1 {*/
+    /*    font-size: 48px;*/
+    /*}*/
+
+    /*#name h2 {*/
+    /*    font-size: 24px;*/
+    /*}*/
+    /*.project-title {*/
+    /*    font-size: 18px;*/
+    /*}*/
+    /*.project-text {*/
+    /*    order: 1;*/
+    /*    width: 100%;*/
+    /*}*/
+    /*.project-image {*/
+    /*    order: 2;*/
+    /*    width: 100%;*/
+    /*}*/
+    /*.project-link a {*/
+    /*    font-size: 12px;*/
+    /*}*/
+    /*.project-description {*/
+    /*    font-size: 12px;*/
+    /*    line-height: 18px;*/
+    /*}*/
+    /*#projects-header > h2 {*/
+    /*    font-size: 24px;*/
+    /*}*/
+}
+
+@media screen and (min-width: 501px) and (max-width: 600px){
+    /*.banner {*/
+    /*    height: 70%;*/
+    /*}*/
+    /*#name h1 {*/
+    /*    font-size: 60px;*/
+    /*}*/
+
+    /*#name h2 {*/
+    /*    font-size: 32px;*/
+    /*}*/
+    /*.project-title {*/
+    /*    font-size: 18px;*/
+    /*}*/
+    /*.project-text {*/
+    /*    order: 1;*/
+    /*    width: 100%;*/
+    /*}*/
+    /*.project-image {*/
+    /*    order: 2;*/
+    /*    width: 100%;*/
+    /*}*/
+    /*.project-link a {*/
+    /*    font-size: 12px;*/
+    /*}*/
+    /*.project-description {*/
+    /*    font-size: 12px;*/
+    /*    line-height: 18px;*/
+    /*}*/
+    /*#projects-header > h2 {*/
+    /*    font-size: 32px;*/
+    /*}*/
+}
+
+@media screen and (min-width: 601px) and (max-width: 1100px){
+    /*.banner {*/
+    /*    height: 70%;*/
+    /*}*/
+    /*#name h1 {*/
+    /*    font-size: 60px;*/
+    /*}*/
+
+    /*#name h2 {*/
+    /*    font-size: 32px;*/
+    /*}*/
+    /*.project-title {*/
+    /*    font-size: 22px;*/
+    /*}*/
+    /*.project-text {*/
+    /*    width: 50%;*/
+    /*}*/
+    /*.project-image {*/
+    /*    width: 50%;*/
+    /*}*/
+    /*.project-link a {*/
+    /*    font-size: 14px;*/
+    /*}*/
+    /*.project-description {*/
+    /*    font-size: 14px;*/
+    /*    line-height: 20px;*/
+    /*}*/
+    /*#projects-header > h2 {*/
+    /*    font-size: 32px;*/
+    /*}*/
+}
+
+@media screen and (min-width: 850px) and (max-width: 1100px) {
+    /*#name h1 {*/
+    /*    font-size: 72px;*/
+    /*}*/
+    /*#name h2 {*/
+    /*    font-size: 40px;*/
+    /*}*/
+    /*.project-title {*/
+    /*    font-size: 30px;*/
+    /*}*/
+    /*.project-link a {*/
+    /*    font-size: 16px;*/
+    /*}*/
+    /*.project-description {*/
+    /*    font-size: 16px;*/
+    /*    line-height: 22px;*/
+    /*}*/
+    /*#projects-header > h2 {*/
+    /*    font-size: 40px;*/
+    /*}*/
+}
+
+@media screen and (min-width: 1401px) {
+    .container {
+        max-width: 1400px;
+    }
 }
