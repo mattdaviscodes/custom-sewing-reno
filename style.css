@@ -314,3 +314,22 @@ html, body {
         font-size: 22px;
     }
 }
+
+@media screen and (max-width: 400px) {
+    .name {
+        font-size: 52px;
+        margin-top: -6px;
+    }
+
+    .top-content h1 {
+        font-size: 14px;
+    }
+
+    .tagline {
+        font-size: 18px;
+    }
+
+    #top {
+        height: 25em;
+    }
+}
