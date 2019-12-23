@@ -96,6 +96,10 @@ html, body {
     align-items: center;
 }
 
+.col-3 {
+    width: 25%;
+}
+
 .col-4 {
     width: 30%;
 }
@@ -180,6 +184,17 @@ html, body {
 .about-content {
     display: flex;
     flex-direction: row-reverse;
+    align-items: center;
+    padding: 20px;
+}
+
+#feed {
+    background-color: #64c4e5;
+}
+
+.feed-content {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     padding: 20px;
 }
