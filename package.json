@@ -1,9 +1,10 @@
 {
   "name": "custom-sewing-reno",
-  "version": "0.1",
+  "version": "1.0.0",
   "description": "Business website of Becki Davis Home Decorative Sewing",
   "scripts": {
-    "start": "grunt"
+    "start": "grunt",
+    "build": "grunt build"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
